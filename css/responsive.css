@@ -1,15 +1,104 @@
-@media only seren and (max-width: 1703px) {
-    body{
-        display: none;
+@media only screen and (max-width: 1844px) {
+    .carousel-indicators1{
+        right: -126px !important;
     }
 }
-@media only seren and (max-width: 1200px) {}
-@media only seren and (max-width: 1200px) {}
-@media only seren and (max-width: 1200px) {}
-@media only seren and (max-width: 1200px) {}
-@media only seren and (max-width: 1200px) {}
-@media only seren and (max-width: 1200px) {}
-@media only seren and (max-width: 1200px) {}
-@media only seren and (max-width: 1200px) {}
-@media only seren and (max-width: 1200px) {}
-@media only seren and (max-width: 1200px) {}
+@media only screen and (max-width: 1600px) {
+    .work,.all-user,.price-footer-Section,.company,.company-text h3,.number{
+        padding: 30px;
+    }
+    .from-btn a{
+        padding: 14px 37%;
+    }
+    .carousel-control-prev-icon{
+        width: 2rem;
+    height: 2rem;
+    }
+    .carousel-control-next{
+        width: 2.8% !important;
+    }
+    .carousel-control-prev{
+        width: 8% !important;
+    }
+}
+@media only screen and (max-width: 1446px) {
+    .from-btn a {
+        padding: 14px 35%;
+    }
+    .number-item-text > h4{
+        width: 700px;
+    }
+    .carousel-indicators1 {
+        right: -174px !important;
+    }
+}
+@media only screen and (max-width: 1238px) {
+    .work-h1 {
+        width: 556px;
+    }
+    .price-footer-Section {
+        justify-content: space-between;
+    }
+    .price-from {
+        width: 46%;
+    }
+    .price-from {
+        padding: 50px 78px;
+    }
+    .from-btn a {
+        padding: 14px 31%;
+    }
+    .company-img img{
+        height: 390px;
+    }
+    #carouselExampleIndicators1.carousel{
+        width: 97vw;
+    }
+    .number-item-text > h4 {
+        width: 570px;
+    }
+    .team-img-all.col-3 img{
+        height: 400px;
+    }
+    .Story-img img{
+        width: 350px;
+    }
+    .user-text {
+        margin-right: 43px;
+    }
+    .card-body {
+        padding-bottom: 310px;
+    }
+}
+@media only screen and (max-width: 938px) {
+    .company-img img {
+        width: 369px;
+    }
+    .number-item-text > h4 {
+        width: 293px;
+    }
+    .number-item-text1 > h4{
+        font-size: 25px;
+    }
+    .number-item-text1 span i{
+        font-size: 25px;
+    }
+    .number-item-text > h4{
+        font-size: 25px;
+    }
+    .company-p {
+        width: 443px;
+    }
+    .company-img img {
+        width: 485px;
+    }
+    .work-h1 {
+        width: 498px;
+    }
+}
+@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1200px) {}
