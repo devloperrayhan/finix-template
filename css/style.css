@@ -16,6 +16,9 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
+.company-img img{
+  max-width: 100%;
+}
 .width{
   max-width: 1580px !important;
   margin: auto !important;

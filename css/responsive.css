@@ -69,6 +69,9 @@
     .card-body {
         padding-bottom: 310px;
     }
+    .carousel-control-next {
+        width: 3.8% !important;
+    }
 }
 @media only screen and (max-width: 938px) {
     .company-img img {
@@ -95,8 +98,137 @@
     .work-h1 {
         width: 498px;
     }
+    .carousel-control-next {
+        width: 3.8% !important;
+    }
 }
-@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1024px) {
+    .price-footer-text {
+        width: 400px;
+    }
+    .item-p {
+        width: 390px;
+    }
+    .price-from {
+        padding: 50px 35px;
+    }
+    .price-from {
+        width: 54%;
+    }
+    .from-btn a {
+        padding: 14px 33%;
+    }
+    .number-item-text1 > h4 {
+        width: 387px;
+    }
+    .number-item-text > h4 {
+        width: 463px;
+    }
+    .company-p {
+        width: 434px;
+    }
+    .work-h1 {
+        width: 486px;
+    }
+    .Story-img img {
+        width: 290px;
+    }
+    .team-img-all.col-3 img {
+        height: 332px;
+    }
+    .work-p {
+        width: 495px;
+    }
+    .carousel-control-next {
+        width: 3.8% !important;
+    }
+    .work-img .image{
+        width: 370px;
+    }
+    .work-img .shape {
+        width: 175px;
+    }
+    .img-text {
+        bottom: 57px;
+        right: -29px;
+    }
+    .img-text :nth-child(1) {
+        font-size: 70px;
+    }
+    .img-text :nth-child(2) {
+        font-size: 14px;
+    }
+    .user-img img {
+        width: 435px;
+    }
+    .user-text {
+        margin-right: 22px;
+    }
+    .user-p {
+        width: 433px;
+    }
+    .user-btn {
+        bottom: 52px;
+        right: 132px;
+    }
+    .carousel-p {
+        width: 382px;
+    }
+    .carousel-inner {
+        width: 109%;
+    }
+    .carousel-item-img img{
+        height: 388px;
+    }
+    .carousel-item-all {
+        align-items: center;
+    }
+    .carousel-indicators {
+        margin-right: 0%;
+        margin-bottom: 0rem;
+        margin-left: 0%;
+    }
+    .carousel {
+        margin-right: 0px;
+        margin-left: 143px;
+        width: 97vw;
+    }
+    .carousel-control-prev,.carousel-control-next{
+        top: -644px !important;
+    }
+    .manager-carousel-p {
+        width: 439px;
+    }
+    .carousel-indicators1 {
+        right: 155px !important;
+    }
+    .carousel-item-all {
+        justify-content: space-between;
+    }
+    .carousel-item-Content {
+        margin-right: 123px;
+    }
+    .all-menu{
+        width: 1024px;
+        margin: auto;
+    }
+    .search{
+        margin-left: 7px;
+        margin-right: 10px;
+    }
+    .carousel {
+        margin-right: 74px;
+        margin-left: 10px;
+    }
+    .carousel {
+        width: 97vw;
+    }
+    .all-menu {
+        width: 1042px;
+        margin: auto;
+        margin-right: 158px;
+    }
+}
 @media only screen and (max-width: 1200px) {}
 @media only screen and (max-width: 1200px) {}
 @media only screen and (max-width: 1200px) {}
