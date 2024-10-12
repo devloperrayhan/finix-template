@@ -18,10 +18,6 @@
     .from-btn a{
         padding: 14px 37%;
     }
-    .carousel-control-prev-icon{
-        width: 2rem;
-    height: 2rem;
-    }
     .carousel-control-next{
         width: 2.8% !important;
     }
@@ -81,7 +77,7 @@
         padding-bottom: 310px;
     }
     .carousel-control-next {
-        width: 3.8% !important;
+        width: 4.7% !important;
     }
     .phone-menu,.Hamburger{
         display: none;
@@ -125,7 +121,7 @@
         width: 495px;
     }
     .carousel-control-next {
-        width: 3.8% !important;
+        width: 4.7% !important;
     }
     .work-img .image{
         width: 370px;
@@ -179,7 +175,7 @@
         width: 97vw;
     }
     .carousel-control-prev,.carousel-control-next{
-        top: -644px !important;
+        top: 153px !important;
     }
     .manager-carousel-p {
         width: 439px;
@@ -271,12 +267,568 @@
         width: 498px;
     }
     .carousel-control-next {
-        width: 3.8% !important;
+        width: 4.7% !important;
     }
     .phone-menu,.Hamburger{
         display: none;
     }
+    .user-p {
+        width: 340px;
+    }
+    .user-img img {
+        width: 370px;
+    }
+    .user-btn {
+        bottom: 35px;
+        right: 100px;
+    }
+    .all-icon {
+        width: 620px;
+    }
+    .price-from {
+        width: 60%;
+    }
+    .item-p {
+        width: 340px;
+    }
+    .from-btn a {
+        padding: 14px 32.2%;
+    }
+    .company-p {
+        width: 297px;
+    }
+    .container, .container-md, .container-sm {
+        max-width: 936px;
+    }
+    .manager .container .row[style="margin-left: -150px;"]{
+        margin-left: -62px !important;
+    }
+    .follow-items.margin p{
+        display: block;
+    }
+    .follow-items.margin .fa-brands.fa-twitter{
+        margin-left: 0px;
+    }
+    .img-menu nav {
+        left: 15px;
+    }
+    .img-menu nav ul li {
+        margin-left: 5px;
+    }
 }
-@media only screen and (max-width: 1200px) {}
-@media only screen and (max-width: 1200px) {}
-@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 768px) {
+    .all-icon {
+        width: 870px;
+    }
+    .Hamburger i {
+        margin-left: 353px;
+    }
+    .hero-h1 {
+        width: 640px;
+    }
+    .work {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .all-user {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Story-img img {
+        width: 236px;
+    }
+    .team-img-all.col-3 img {
+        height: 270px;
+    }
+    .company {
+        flex-direction: column-reverse;
+    }
+    .company-p {
+        width: 475px;
+    }
+    .carousel-item-img img {
+        height: 328px;
+    }
+    .carousel-item-img {
+        margin-right: 5px;
+    }
+    .number-item-text > h4,.number-item-text1 > h4{
+        font-size: 23px;
+    }
+    .number-item-text1 > h4 {
+        width: 233px;
+    }
+    .item-p {
+        width: 326px;
+    }
+    .price-footer-text > h4 {
+    font-size: 31px;
+    }
+    .price-footer-text {
+        width: 377px;
+    }
+    .from-btn a {
+        padding: 14px 24.5%;
+    }
+    .img-menu nav {
+        left: 16px;
+    }
+    .img-menu nav ul li {
+        margin-left: -4px;
+    }
+    .manager-carousel-img img{
+        height: 260px;
+    }
+    .manager-carousel-p {
+        width: 355px;
+    }
+    .carousel-indicators1 {
+        bottom: 100px !important;
+    }
+    .footer .container .row{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .Zx_1{
+        width: 100%;
+    }
+    .follow-items.margin p {
+        display: inline-block;
+    }
+    .follow-items.margin .fa-brands.fa-twitter {
+        margin-left: 33px;
+    }
+    .margin {
+        margin-bottom: 25px;
+    }
+    .footer-text {
+        margin-left: 33px;
+    }
+    .phone-menu, .Hamburger {
+        width: 145px;
+    }
+    .Hamburger i {
+        margin-left: 220px;
+    }
+    .nav-menu-phone {
+        left: -295px;
+    }
+    .price-footer-item-text > h3 > span::before {
+        height: 170px;
+    }
+    .user-p {
+        width: 620px;
+    }
+    .user-img img {
+        width: 537px;
+    }
+    .user-btn {
+        bottom: 75px;
+        right: 140px;
+    }
+    .work-p {
+        width: 640px;
+    }
+    .work-h1 {
+        width: 620px;
+    }
+    .user-img{
+        margin-left: 50px;
+    }
+    .company-p {
+        width: 640px;
+    }
+    button[type] span h3 {
+        font-size: 19px;
+    }
+    .Zx_2{
+        width: 33%;
+    }
+}
+@media only screen and (max-width: 680px) {
+    .services-p {
+        width: 670px;
+    }
+    .company-p {
+        width: 530px;
+    }
+    .manager-p {
+        width: 655px;
+    }
+    .team-p {
+        width: 640px;
+    }
+    .hero-h1 {
+        width: 565px;
+    }
+    .hero-p p {
+        width: 564px;
+    }
+    .Story-p {
+        width: 640px;
+    }
+    .team-img-all{
+        width: 50%;
+    }
+    .team-img-all.col-3 img {
+        height: 475px;
+    }
+    .img-menu nav {
+        left: 25px;
+    }
+    .img-menu nav ul li {
+        margin-left: 18px;
+    }
+    .img-menu nav {
+        bottom: 50px;
+    }
+    .Story-img img {
+        width: 318px;
+    }
+    .Zx_3 .col-4{
+        width: 50%;
+        margin-bottom: 35px;
+    }
+    .Zx_4{
+        display: block;
+    }
+    .Footer-icons span {
+        margin-bottom: 40px;
+    }
+    .price-footer-Section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .price-from{
+        margin-top: 50px;
+    }
+    .price-footer {
+        width: 92%;
+    }
+    .price-footer-item-text > h3 > span::before {
+        height: 140px;
+    }
+    .item-p {
+        width: 598px;
+    }
+    .price-footer-text {
+        width: 555px;
+    }
+    .price-from{
+        margin-top: 90px !important;
+        width: 90%;
+    }
+    .from-btn a {
+        padding: 14px 35%;
+    }
+    .all-number {
+        padding: 20px 0;
+    }
+    .manager-carousel-item-all {
+        flex-direction: column-reverse;
+    }
+    .manager-carousel-img img {
+        height: 300px;
+        margin-bottom: 40px;
+    }
+    .manager-carousel-p {
+        width: 542px;
+    }
+    .carousel-indicators1 {
+        bottom: 240px !important;
+    }
+    .item-p {
+        width: 585px;
+    }
+    .carousel-item-all {
+        justify-content: space-between;
+    }
+    .carousel-control-prev,.carousel-control-next{
+        top: 153px !important;
+    }
+    .carousel-item-all {
+        flex-direction: column;
+    }
+    .carousel-p {
+        width: 601px;
+    }
+    button[type] span h3 {
+        font-size: 16px;
+    }
+    .all-icon {
+        width: 5000px;
+    }
+    .Hamburger i {
+        margin-left: 130px;
+    }
+    .hero-h1 h1 {
+        font-size: 50px;
+        line-height: 56px;
+    }    
+    .hero-text {
+        margin-left: 40px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .footer-text {
+        margin-left: 0px;
+    }
+    .Footer-icons span {
+        margin-right: 10px;
+    }
+    .item-p {
+        width: 476px;
+    }
+    .services-p {
+        width: 590px;
+    }
+    .manager-p {
+        width: 575px;
+    }
+    .team-p {
+        width: 575px;
+    }
+    .Story-p {
+        width: 580px;
+    }
+    .team-img-all.col-3 img {
+        height: 430px;
+    }
+    .Story-img img {
+        width: 280px;
+    }
+    .work-p {
+        width: 580px;
+    }
+    .work-h1 {
+        width: 580px;
+    }
+    .price-footer-text {
+        width: 539px;
+    }
+    .hero-p p {
+        width: 474px;
+    }
+    .hero-h1 {
+        width: 442px;
+    }
+    .carousel-item-Content {
+        margin-right: -70px;
+    }
+    .carousel-p {
+        width: 532px;
+    }
+    .manager-carousel-p {
+        width: 465px;
+    }
+    .D-NONE{
+        display: none;
+    }
+    .Apply{
+        margin-left: 125px;
+    }
+    .user-text {
+        margin-right: -10px;
+    }
+    .user-p {
+        width: 586px;
+    }
+    .user-img {
+        margin-left: 15px;
+    }
+    .from-btn a {
+        padding: 14px 32.6%;
+    }
+    .number-item-text > h4, .number-item-text1 > h4 {
+        font-size: 20px;
+    }
+    .number-item-text1 span i {
+        padding: 10px;
+    }
+    .number-item-text > h4 {
+        width: 257px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .services-p {
+        width: 314px;
+    }
+    .manager-p {
+        width: 299px;
+    }
+    .team-p {
+        width: 300px;
+    }
+    .Story-p {
+        width: 300px;
+    }
+    .price-p {
+        width: 314px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .price-footer-text {
+        width: 273px;
+    }
+    .item-p {
+        width: 230px;
+    }
+    .hero-h1 {
+        width: 275px;
+    }
+    .hero-p p {
+        width: 267px;
+    }
+    .work-h1 {
+        width: 261px;
+    }
+    .work-h1 h1 {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .work-items p {
+        width: 280px;
+    }
+    .work-p {
+        width: 284px;
+    }
+    .company-p {
+        width: 248px;
+    }
+    .all-number {
+        flex-direction: column;
+    }
+    .team-img-all {
+        width: 100%;
+    }
+    .Zx_3 .col-4 {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .user-text {
+        margin-right: -20px;
+    }
+    .user-btn {
+        bottom: 10px;
+        right: 44px;
+    }
+    .user-p {
+        width: 286px;
+    }
+    .user-img img {
+        margin-left: -20px;
+        width: 290px;
+    }
+    .container[style="margin-top: 60px;"] .row .col-6{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .container[style="margin-top: 60px;"] .row{
+        flex-direction: column;
+        align-content: space-around;
+    }
+    button[type] span h3 {
+        font-size: 11px;
+    }
+    .work-img .image {
+        width: 288px;
+    }
+    .shape {
+        position: absolute;
+        bottom: 30px;
+        right: -17px;
+        width: 130px !important;
+    }
+    .img-text :nth-child(1) {
+        font-size: 50px;
+    }
+    .img-text :nth-child(2) {
+        font-size: 12px;
+    }
+    .img-text {
+        bottom: 53px;
+        right: -7px;
+    }
+    .Zx_2 {
+        width: 100%;
+    }
+    .company-img img {
+        height: 213px;
+        width: auto !important;
+    }
+    .number-item-text > h4{
+        border-bottom: 1px solid #FFF;
+        border-right: none;
+    }
+    .number-item-text1 > h4 {
+        width: 166px;
+        font-size: 15px;
+    }
+    .price-from {
+        width: 118%;
+    }
+    .from-btn a {
+        padding: 14px 18.9%;
+    }
+    .price-footer-item-text > h3 > span::before {
+        height: 214px;
+    }
+    .price-footer-item-text > h3 {
+        font-size: 19px;
+    }
+    .price-footer-btn {
+        text-align: center;
+    }
+    .hero-h1 h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .hero-text {
+        margin-left: 15px;
+    }
+    .carousel-item-img img {
+        height: 270px;
+    }
+    .carousel-item-Content h3 {
+        width: 380px;
+    }
+    .carousel-p {
+        width: 281px;
+    }
+    .carousel-item-Content {
+        margin-right: -125px;
+    }
+    #carouselExampleIndicators1.carousel {
+        width: 109vw;
+    }
+    .manager-carousel-img img {
+        height: 245px;
+    }
+    .carousel-indicators1 {
+        bottom: 318px !important;
+    }
+    .manager-carousel-p {
+        width: 267px;
+    }
+    .team-img-all.col-3 img {
+        height: 448px;
+    }
+    .img-menu nav {
+        left: 22px;
+    }
+    .Story-img img {
+        width: 300px;
+    }
+    .Footer-icons span {
+        margin-bottom: 25px;
+    }
+    .number-item-text1{
+        margin-top: 13px;
+    }
+}
+@media only screen and (max-width: 1486px) {
+    .from-btn a {
+        padding: 14px 36.4%;
+    }
+}
