@@ -993,7 +993,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 text-center Rayhan">
-            <p>Copyright @2024 Finix. Designed By <a target="_blank" href="http://facebook.com/devloperrayhan">Developer Rayhan</a></p>
+            <p>Copyright @2024 Finix. Designed By <br class="d-none Dev"><a target="_blank" href="http://facebook.com/devloperrayhan">Developer Rayhan</a></p>
           </div>
         </div>
       </div>
@@ -1028,7 +1028,15 @@
             margin:10,
             autoplay:true,
             autoplayTimeout:1000,
-            autoplayHoverPause:true
+            autoplayHoverPause:true,
+            responsive : {
+              0 : {
+                items : 2,
+              },
+              678 : {
+                items : 5,
+              },
+            }
         });
         $('.play').on('click',function(){
             owl.trigger('play.owl.autoplay',[1000])
@@ -1036,6 +1044,7 @@
         $('.stop').on('click',function(){
             owl.trigger('stop.owl.autoplay')
         })
+
         $(".Hamburger i").on('click',function(){
             $(".nav-menu-phone").slideToggle();
             $('.Hamburger i').toggleClass("fa-bars fa-times");

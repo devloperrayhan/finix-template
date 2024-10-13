@@ -15,23 +15,11 @@
     .work,.all-user,.price-footer-Section,.company,.company-text h3,.number{
         padding: 30px;
     }
-    .from-btn a{
-        padding: 14px 37%;
-    }
-    .carousel-control-next{
-        width: 2.8% !important;
-    }
-    .carousel-control-prev{
-        width: 8% !important;
-    }
     .phone-menu,.Hamburger{
         display: none;
     }
 }
 @media only screen and (max-width: 1446px) {
-    .from-btn a {
-        padding: 14px 35%;
-    }
     .number-item-text > h4{
         width: 700px;
     }
@@ -51,9 +39,6 @@
     }
     .price-from {
         padding: 50px 78px;
-    }
-    .from-btn a {
-        padding: 14px 31%;
     }
     .company-img img{
         height: 390px;
@@ -76,9 +61,6 @@
     .card-body {
         padding-bottom: 310px;
     }
-    .carousel-control-next {
-        width: 4.7% !important;
-    }
     .phone-menu,.Hamburger{
         display: none;
     }
@@ -95,9 +77,6 @@
     }
     .price-from {
         width: 54%;
-    }
-    .from-btn a {
-        padding: 14px 33%;
     }
     .number-item-text1 > h4 {
         width: 387px;
@@ -119,9 +98,6 @@
     }
     .work-p {
         width: 495px;
-    }
-    .carousel-control-next {
-        width: 4.7% !important;
     }
     .work-img .image{
         width: 370px;
@@ -266,9 +242,6 @@
     .work-h1 {
         width: 498px;
     }
-    .carousel-control-next {
-        width: 4.7% !important;
-    }
     .phone-menu,.Hamburger{
         display: none;
     }
@@ -290,9 +263,6 @@
     }
     .item-p {
         width: 340px;
-    }
-    .from-btn a {
-        padding: 14px 32.2%;
     }
     .company-p {
         width: 297px;
@@ -367,9 +337,6 @@
     }
     .price-footer-text {
         width: 377px;
-    }
-    .from-btn a {
-        padding: 14px 24.5%;
     }
     .img-menu nav {
         left: 16px;
@@ -519,9 +486,6 @@
         margin-top: 90px !important;
         width: 90%;
     }
-    .from-btn a {
-        padding: 14px 35%;
-    }
     .all-number {
         padding: 20px 0;
     }
@@ -637,9 +601,6 @@
     .user-img {
         margin-left: 15px;
     }
-    .from-btn a {
-        padding: 14px 32.6%;
-    }
     .number-item-text > h4, .number-item-text1 > h4 {
         font-size: 20px;
     }
@@ -650,7 +611,12 @@
         width: 257px;
     }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 678px) {
+    .carousel{
+        margin-left: 27px;
+        width: 89vw;
+        margin-right: 0px;
+    }
     .services-p {
         width: 314px;
     }
@@ -668,6 +634,12 @@
         margin: 0 auto;
         margin-bottom: 50px;
     }
+    .carousel-item {
+        width: 94%;
+    }   
+    #carouselExampleIndicators1.carousel {
+        width: 103vw;
+    } 
     .price-footer-text {
         width: 273px;
     }
@@ -768,9 +740,6 @@
     .price-from {
         width: 118%;
     }
-    .from-btn a {
-        padding: 14px 18.9%;
-    }
     .price-footer-item-text > h3 > span::before {
         height: 214px;
     }
@@ -799,9 +768,6 @@
     .carousel-item-Content {
         margin-right: -125px;
     }
-    #carouselExampleIndicators1.carousel {
-        width: 109vw;
-    }
     .manager-carousel-img img {
         height: 245px;
     }
@@ -812,13 +778,13 @@
         width: 267px;
     }
     .team-img-all.col-3 img {
-        height: 448px;
+        height: 505px;
     }
     .img-menu nav {
-        left: 22px;
+        left: 33px;
     }
     .Story-img img {
-        width: 300px;
+        width: 335px;
     }
     .Footer-icons span {
         margin-bottom: 25px;
@@ -826,9 +792,58 @@
     .number-item-text1{
         margin-top: 13px;
     }
-}
-@media only screen and (max-width: 1486px) {
-    .from-btn a {
-        padding: 14px 36.4%;
+    .nav-menu-phone{
+        top: 35px;
+    }
+    .nav-menu-phone > ul li {
+        background-color: #e73c3e;
+    }
+    .nav-menu-phone > ul {
+        flex-direction: column;
+        width: auto;
+        flex-direction: column;
+        width: 60px;
+    }
+    .all-menu nav {
+        width: 458px;
+    }
+    .follow-items {
+        margin-top: 60px;
+    }
+    .hero-text>p {
+        padding-top: 230px;
+    }
+    .Home-sub-menu-phone{
+        top: 0%;
+        left: 126px;
+    }
+    .Pages-sub-menu-phone {
+        position: absolute;
+        top: 0%;
+        left: 126px;
+        width: 185px;
+    }
+    .nav-menu-phone{
+        background-color: transparent;
+    }
+    .Pages-sub-menu-phone li a{
+        margin-left: 26px;
+    }
+    .sub-menu-Projects-Phone {
+        left: -141px;
+    }    
+    .Services-sub-phone{
+        top: 40%;
+        left: 126px;
+    }
+    .nav-menu-phone ul > li{
+        margin-right: -65px;
+    }
+    .News-sub-phone {
+        top: 26%;
+        left: 126px;
+    }
+    .Dev{
+        display: block !important;
     }
 }

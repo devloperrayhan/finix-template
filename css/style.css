@@ -1547,13 +1547,21 @@ footer a:hover{
 .Zx_4{
   display: none;
 }
-.carousel-control-next {
-    width: 4.7% !important;
-}
 .carousel-control-prev,.carousel-control-next{
   width: 2rem;
   height: 2rem;
 }
 .carousel-control-prev,.carousel-control-next{
   top: 153px !important;
+}
+.from-btn a {
+  padding: 14px 0px;
+  display: block;
+  text-align: center;
+}
+ .carousel-control-next {
+  width: 32px !important;
+}
+.carousel-control-prev {
+  width: 32px !important;
 }
